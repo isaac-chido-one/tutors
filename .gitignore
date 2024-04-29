@@ -23,3 +23,10 @@ dist/
 
 # environment variables
 .env
+
+# eclipse
+.buildpath
+.project
+.settings/
+
+.azle/

@@ -15,5 +15,8 @@
   "workspaces": [
     "src/tutors_backend",
     "src/tutors_frontend"
-  ]
+  ],
+  "dependencies": {
+    "uuid": "^9.0.1"
+  }
 }
