@@ -1,4 +1,6 @@
 service: () -> {
+    create: (text, nat32, text, float32, text) -> (record {id:principal; subject:text; cost:float32; name:text; category:nat32; phone:text});
+    destroy: (text) -> (text);
     greet: (text) -> (text) query;
-    index: () -> (vec record {id:principal; subject:text; cost:float32; name:text; category:text; phone:text}) query;
+    index: () -> (vec record {id:principal; subject:text; cost:float32; name:text; category:nat32; phone:text}) query;
 }

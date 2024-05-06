@@ -17,6 +17,7 @@
     "src/tutors_frontend"
   ],
   "dependencies": {
+    "react-bootstrap-icons": "^1.11.4",
     "uuid": "^9.0.1"
   }
 }
